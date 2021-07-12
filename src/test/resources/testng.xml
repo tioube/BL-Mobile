@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Sample Android (Multithread)" thread-count="1" parallel="tests">
+<!--    <test name="IM_AN_Register">-->
+<!--        <parameter name="deviceName" value="ASUS_X00QD"/>-->
+<!--        <parameter name="platformVersion" value="9"/>-->
+<!--        <parameter name="systemPort" value="8201"/>-->
+<!--        <parameter name="udid" value="J8AXGF02R8077CG"/>-->
+<!--        <classes>-->
+<!--            <class name="com.test.bukalapak.baseSetup"/>-->
+<!--            <class name="com.test.bukalapak.sampleTestRegister"/>-->
+<!--&lt;!&ndash;            <class name="com.testing.imkas.member.login.Login"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="IM_AN_Login">
+        <parameter name="deviceName" value="ASUS_X00QD"/>
+        <parameter name="platformVersion" value="9"/>
+        <parameter name="systemPort" value="8202"/>
+        <parameter name="udid" value="J8AXGF02R8077CG"/>
+        <classes>
+            <class name="com.test.bukalapak.baseSetup"/>
+            <class name="com.test.bukalapak.sampleTestLogin"/>
+            <!--            <class name="com.testing.imkas.member.login.Login"/>-->
+        </classes>
+    </test>
+</suite>

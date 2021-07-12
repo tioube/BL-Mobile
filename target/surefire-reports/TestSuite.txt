@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 53.121 s <<< FAILURE! - in TestSuite
+com.test.bukalapak.sampleTestLogin.Login  Time elapsed: 21.06 s  <<< FAILURE!
+java.lang.AssertionError: Data is Equals expected [test1234] but found [test7@huy.com]
+	at com.test.bukalapak.sampleTestLogin.Login(sampleTestLogin.java:13)
+
