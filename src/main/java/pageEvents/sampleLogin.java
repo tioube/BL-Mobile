@@ -28,18 +28,13 @@ public class sampleLogin {
 
 //        if(driver.getCapabilities().getCapability("appActivity") == "com.indosatooredoo.Imkasapp.ui.activity.account.onboarding.OnBoardingActivity" ){
         elementStats el = new elementStats();
-        Thread.sleep(2000);
         el.getWebElement(driver, "ID", sampleElement.ID_EMAIL_LOGIN).sendKeys(sampleElement.ID_EMAIL_FORM);
         el.getWebElement(driver, "ID", sampleElement.ID_PASSWORD_LOGIN).sendKeys(sampleElement.ID_PASS);
         driver.navigate().back();
-        Thread.sleep(2000);
         el.getWebElement(driver, "ID", sampleElement.ID_LOGIN_BTN).click();
-        Thread.sleep(2000);
-        Thread.sleep(2000);
         String a =el.getWebElement(driver, "ID", "com.loginmodule.learning:id/textViewName").getText();
 //        System.out.println(a);
-//        WebElement b =el.getWebElement(driver, "ID", sampleElement.ID_EMAIL_FORM);
-        Assert.assertEquals(a,sampleElement.ID_PASS,"Data is Equals");
+        Assert.assertEquals(a,sampleElement.ID_EMAIL_FORM,"Data is Equals");
 
 
 

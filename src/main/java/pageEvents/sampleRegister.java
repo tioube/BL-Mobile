@@ -40,15 +40,16 @@ public class sampleRegister {
         el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_NAME).sendKeys(sampleElement.ID_NAME_FORM);
         el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_EMAIL).sendKeys(sampleElement.ID_EMAIL_FORM);
         driver.navigate().back();
-        Thread.sleep(2000);
+//        Thread.sleep(500);
         el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_PASSWORD).sendKeys(sampleElement.ID_PASS);
         driver.navigate().back();
-        Thread.sleep(2000);
+//        Thread.sleep(500);
         el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_CONFIRM_PASS).sendKeys(sampleElement.ID_PASS);
         driver.navigate().back();
-        Thread.sleep(2000);
+//        Thread.sleep(500);
         el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_BUTTON).click();
-
+        String a = el.getWebElement(driver, "ID", "com.loginmodule.learning:id/snackbar_text").getText();
+        Assert.assertEquals(a,"Registration Successful","Assert True");
 
 //        try {
 //            WebElement mobileElement = el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_TEXT);

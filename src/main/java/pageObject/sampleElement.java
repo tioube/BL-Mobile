@@ -15,8 +15,8 @@ public class sampleElement {
 
 
     // Form Submit
-    public final static String ID_EMAIL_FORM = "test7@huy.com";
-    public final static String ID_NAME_FORM = "test7";
+    public final static String ID_EMAIL_FORM = "test9@huy.com";
+    public final static String ID_NAME_FORM = "test9";
     public final static String ID_PASS = "test1234";
 
 }
