@@ -9,5 +9,6 @@ public class sampleTestRegister extends baseSetup {
     public void Register() throws InterruptedException {
         sampleRegister fl = new sampleRegister(getDriver());
         fl.register();
+        fl.invalidRegister();
     }
 }

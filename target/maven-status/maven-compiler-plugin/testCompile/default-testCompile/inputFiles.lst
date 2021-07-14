@@ -1,3 +1,3 @@
-/Users/tio/gitlab/bukalapak-assignment/BL-Apps/src/test/java/com/test/bukalapak/baseSetup.java
-/Users/tio/gitlab/bukalapak-assignment/BL-Apps/src/test/java/com/test/bukalapak/sampleTestRegister.java
-/Users/tio/gitlab/bukalapak-assignment/BL-Apps/src/test/java/com/test/bukalapak/sampleTestLogin.java
+/Users/tio/gitlab/bukalapak-assignment/BL-Apps/BL-Mobile/src/test/java/com/test/bukalapak/baseSetup.java
+/Users/tio/gitlab/bukalapak-assignment/BL-Apps/BL-Mobile/src/test/java/com/test/bukalapak/sampleTestRegister.java
+/Users/tio/gitlab/bukalapak-assignment/BL-Apps/BL-Mobile/src/test/java/com/test/bukalapak/sampleTestLogin.java

@@ -64,6 +64,30 @@ public class sampleRegister {
 
     }
 
+    public void invalidRegister() throws InterruptedException {
+
+        DesiredCapabilities ds = new DesiredCapabilities();
+        WebDriverWait wait = new WebDriverWait(driver, 60);
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        elementStats el = new elementStats();
+
+//        el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_TEXT).click();
+        el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_NAME).sendKeys(sampleElement.ID_NAME_FORM);
+        el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_EMAIL).sendKeys(sampleElement.ID_EMAIL_FORM);
+        driver.navigate().back();
+//        Thread.sleep(500);
+        el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_PASSWORD).sendKeys(sampleElement.ID_PASS);
+        driver.navigate().back();
+//        Thread.sleep(500);
+        el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_CONFIRM_PASS).sendKeys(sampleElement.ID_PASS);
+        driver.navigate().back();
+//        Thread.sleep(500);
+        el.getWebElement(driver, "ID", sampleElement.ID_REGISTER_BUTTON).click();
+        String a = el.getWebElement(driver, "ID", "com.loginmodule.learning:id/snackbar_text").getText();
+        Assert.assertEquals(a,"Email Already Exists","Assert True");
+
+    }
+
 }
 
 

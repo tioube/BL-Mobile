@@ -1,4 +1,4 @@
-/Users/tio/gitlab/bukalapak-assignment/BL-Apps/src/main/java/pageObject/sampleElement.java
-/Users/tio/gitlab/bukalapak-assignment/BL-Apps/src/main/java/pageEvents/sampleLogin.java
-/Users/tio/gitlab/bukalapak-assignment/BL-Apps/src/main/java/pageEvents/sampleRegister.java
-/Users/tio/gitlab/bukalapak-assignment/BL-Apps/src/main/java/utils/elementStats.java
+/Users/tio/gitlab/bukalapak-assignment/BL-Apps/BL-Mobile/src/main/java/pageObject/sampleElement.java
+/Users/tio/gitlab/bukalapak-assignment/BL-Apps/BL-Mobile/src/main/java/pageEvents/sampleRegister.java
+/Users/tio/gitlab/bukalapak-assignment/BL-Apps/BL-Mobile/src/main/java/pageEvents/sampleLogin.java
+/Users/tio/gitlab/bukalapak-assignment/BL-Apps/BL-Mobile/src/main/java/utils/elementStats.java
